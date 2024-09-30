@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+}
+
+#home .box1 {
+    width: 60%;
+}
+
+#home .box2 {
+    background-color: orange;
+    width: 40%;
+
+
+}
+
+#home .hero-img {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home .shop {
+    display: flex;
+    padding: 1rem;
+    /* gap: 30px; */
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.shop input {
+    background: #eee;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    width: 200px;
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menubar .logo {
+    width: 5rem;
+}
+
+.menubar .menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu a:hover,
+.menu .active {
+    color: orange;
+}
+
+
+.intro {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+ .intro   h1 {
+        /* color:#552203; */
+        color: #333;
+        font-size: 3rem;
+    }
+
+   .intro span {
+        color: orange;
+        font-size: 3rem;
+    }
+
+   .intro p {
+        color: #555;
+        font-size: 1.28rem;
+        width: 70%;
+    }
+
+   .intro button {
+        background-color: #482207;
+        padding: 15px 30px;
+        border-radius: 100px;
+        color: #eee;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+    }

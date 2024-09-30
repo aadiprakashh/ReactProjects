@@ -1,0 +1,37 @@
+#modal{
+    display: grid;
+    place-items: center;
+}
+.itemMenu {
+    background-color: beige;
+    width: 65%;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -70px;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        align-items: center;
+
+        img {
+            width: 100px;
+            aspect-ratio: 2/2;
+            object-fit: contain;
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        .active {
+            color: sienna;
+        }
+    }
+}

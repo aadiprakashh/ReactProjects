@@ -1,0 +1,94 @@
+.contextMenu {
+    /* border: 1px solid #333; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 4rem;
+}
+    h3 {
+        font-size: 2rem;
+
+       
+    }
+ span {
+            font-size: 2rem;
+            border-bottom: 3px solid orange;
+        }
+    .coffeeList {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        gap: 30px;
+        width: 100%;
+    }
+        .list {
+            width: 300px;
+            height: 520px;
+            background: #733c22;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: start;
+            /* gap: 10px; */
+            justify-content: space-between;
+            border-radius: 20px;
+        }
+          .list img {
+                width: 100%;
+                border-radius: 20px;
+            }
+
+         .list   h3 {
+                color: beige;
+                font-size: 1.5rem;
+            }
+
+          .list  p {
+                color: #f5f5dcb3;
+            }
+
+            .price {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+            }
+
+             .price   p {
+                    color: #eee;
+                    font-weight: bolder;
+                    font-weight: 800;
+                }
+
+              .price  button {
+                    background-color: sienna;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    color: #eee;
+
+                }
+            
+
+        .list:nth-child(2) {
+            background-color: sandybrown;
+            width: 320px;
+            height: 580px;
+            padding-bottom:10px;
+            h3,
+            p {
+                color: #6f5850;
+            }
+
+            h3 {
+                color: #733c22;
+                font-size: 1.8rem;
+            }
+
+            .price p {
+                color: #733c22;
+                font-size: 1.6rem;
+            }
+        }
+    
